@@ -26,9 +26,28 @@
     src: local('Open Sans'), url('/font/OpenSans\ Italic.ttf') format('truetype');
 }
 
-.openSans {
-    font-family: 'Open Sans', sans-serif;
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Poppins'), url('/font/Poppins-Regular.ttf') format('truetype');
 }
+
+/*
+@font-face {
+    font-family: 'Poppins Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Poppins Thin'), url('/font/Poppins-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins Thin';
+    font-style: italic;
+    font-weight: normal;
+    src: local('Poppins Thin'), url('/font/Poppins-ThinItalic.ttf') format('truetype');
+}
+*/
 
 body {
     font-family: 'Kepler', serif;
