@@ -56,6 +56,10 @@ body {
     background-color: #f4f9fd;
 }
 
+.txtContent p {
+    margin-bottom: 35px;
+}
+
 .topimg {
     padding-top: 80px;
     width: 100%;
@@ -65,13 +69,17 @@ body {
 }
 
 #main {
-    margin-top: 20px;
-    width: 100%;
+    margin-top: -50px;
+    width: 95%;
     color: #000000;
     background-color: #f4f9fd;
     display: inline-block;
     position: relative;
     text-align: center;
+    padding: 20px 300px 0 300px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
+    border-radius: 5px;
 }
 
 .txtHeader {
@@ -82,6 +90,7 @@ body {
 .txtContent {
     font-size: 18px;
     margin: 25px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .imgCaption {
@@ -149,9 +158,9 @@ body {
     background-color: #f4f9fd;
     width: 100%;
     z-index: 6;          /* below the top div, but above the one below it */
-    margin-top: 780px;   /* the height of the two divs above combined */
+    margin-top: 850px;   /* the height of the two divs above combined */
     box-sizing: border-box;
-    padding: 30px;
+    text-align: center;
 }
 
 /* pre-req for side by side action */
