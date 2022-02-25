@@ -71,7 +71,6 @@ body {
     background-color: #f4f9fd;
     display: inline-block;
     position: relative;
-    border: 4px #000000;
     text-align: center;
 }
 
@@ -80,7 +79,7 @@ body {
     margin: 25px;
 }
 
-.txtSubHead {
+.txtContent {
     font-size: 18px;
     margin: 25px;
 }
