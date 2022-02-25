@@ -80,6 +80,20 @@ body {
     margin: 25px;
 }
 
+.txtSubHead {
+    font-size: 18px;
+    margin: 25px;
+}
+
+.imgCaption {
+    margin: 100px;
+    text-align: left;
+    width: auto;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/*
 .rndBox {
     background-color: #010101;
     font-size: 22px;
@@ -112,6 +126,7 @@ body {
     box-sizing: border-box;
     text-align: center;
 }
+*/
 
 /* magic scroll porggors */
 .head, #subHead{
