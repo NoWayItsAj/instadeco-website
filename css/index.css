@@ -155,7 +155,7 @@ body {
 
 #content{
     position: relative;
-    background-color: #f4f9fd;
+    background-color: #e7f2fb;
     width: 100%;
     z-index: 6;          /* below the top div, but above the one below it */
     margin-top: 850px;   /* the height of the two divs above combined */
