@@ -1,0 +1,10 @@
+.footer {
+    background-color: #101010;
+    color: #e7f2fb;
+    height: 400px;
+    box-sizing: border-box;
+}
+
+.footer .footer-bottom {
+    background-color: #000000;
+}
