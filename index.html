@@ -2,11 +2,13 @@
 <html>
     <head>
         <title>InstaDeco | Automated Decoration System</title>
+        <link href="css/fonts.css" rel="stylesheet" type="text/css">
         <link href="/css/index.css" rel="stylesheet" type="text/css">
         <link href="/css/navbar.css" rel="stylesheet" type="text/css">
-        <link href="/css/footer.css" rel="stylesheet" type="textcss">
+        <link href="/css/footer.css" rel="stylesheet" type="text/css">
         <script type="text/javascript" src="js/index.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/0a5006146e.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <!-- Navbar -->
@@ -23,27 +25,64 @@
         <div id="subHead" class="topimg" style="background-image: url('img/instadecoblueprint.png'); background-position: center bottom;"></div>
         <div id="content">
             <div id="main">
-                <div class="txtHeader">The Automated Decoration Solution</div>
-                <div class="txtContent">Doning your warm clothes and braving the cold is a thing of the past. InstaDeco allows you to set up your decorations once, and display them with the press of a button every holiday season.</div>
-                <div class="imgCaption">
-                    <img src="img/manlights.png" height="400"> 
-                    <p><b>A man installing lights in the winter.</b></p>
-                </div>
-                <div class="txtHeader">Easy Installation</div>
-                <div class="txtContent">
-                    <p>InstaDeco is easy to install. Simply measure the required length, assemble the spacers to fit, and screw into place! Afterwards, all you'll need to have the swaggiest house in the neightborhood is to plug it into an outdoor outlet.</p>
-                    <p>Installing decorations with InstaDeco is a breeze. With a configuration selected, just connect your decorations to the revaled hooks, and connect the power to the cable hanging from the end of the unit.</p>
-                </div>
-                <!-- Footer -->
-               <div class="footer">
-                    <div class="footer-content">
-                        <div class="footer-content about"></div>
-                        <div class="footer-content info"></div>
-                        <div class="footer-content contact-info"></div>
+                <div id="mainWrapper">
+                    <div class="txtHeader">The Automated Decoration Solution</div>
+                    <div class="txtContent">Doning your warm clothes and braving the cold is a thing of the past. InstaDeco allows you to set up your decorations once, and display them with the press of a button every holiday season.</div>
+                    <div class="imgCaption">
+                        <img src="img/manlights.png" height="400">
+                        <p><b>A man installing lights in the winter.</b></p>
+                    </div>
+                    <div class="txtHeader">Easy Installation</div>
+                    <div class="txtContent">
+                        <p>InstaDeco is easy to install. Simply measure the required length, assemble the spacers to fit, and screw into place! Afterwards, all you'll need to have the swaggiest house in the neightborhood is to plug it into an outdoor outlet.</p>
+                        <p>Installing decorations with InstaDeco is a breeze. With a configuration selected, just connect your decorations to the revaled hooks, and connect the power to the cable hanging from the end of the unit.</p>
                     </div>
                 </div>
-                <div class="footer-bottom">
-                    &copy; instadeco.com
+                <!-- Footer -->
+                <div class="footer">
+                    <div class="footer-content">
+                        <div class="footer-section about">
+                            <h1 class="logo-text"><span>InstaDeco</span></h1>
+                            <p>
+                                InstaDeco is a small startup with it's roots in southern Minnesota.
+                                Our mission is to provide automated solutions for all of your outdoor decorations.
+                            </p>
+                            <div class="contact">
+                                <span><i class="fas fa-phone"></i> &nbsp; (123) 456-7890</span>
+                                <span><i class="fa fa-envelope"></i> &nbsp; info@instadeco.com</span>
+                            </div>
+                            <div class="socials">
+                                <a href="#"><i class="fab fa-amazon"></i></a>
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                        <div class="footer-section links">
+                            <h1>Quick Links</h1>
+                            <ul>
+                                <a href="#"><li>Events</li></a>
+                                <a href="#"><li>Team</li></a>
+                                <a href="#"><li>Gallery</li></a>
+                                <a href="#"><li>Terms and Conditions</li></a>
+                            </ul>
+                        </div>
+                        <div class="footer-section contact-form">
+                            <h1>Contact Us</h1>
+                            <form action="index.html" method="post">
+                                <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+                                <textarea name="message" class="text-input contact-input" placeholder="Your message..." ></textarea>
+                                <button class="submit btn btn-big contact-btn">
+                                    <i class="fa fa-envelope"></i>
+                                    Send
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        &copy; instadeco.com
+                    </div>
                 </div>
             </div>
         </div>
