@@ -50,6 +50,7 @@ html, body {
     margin: 25px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    text-align: left;
 }
 
 .imgCaption {
@@ -126,13 +127,9 @@ html, body {
 
 /* pre-req for side by side action */
 
-/*
 .SBSwrapper {
     text-align: center;
-    border-radius: 10px;
-    box-shadow: 2px 10px 12px rgba(0,0,0,0.2);
     overflow: hidden;
-    line-height: 80%;
     display: flex;
     align-items: stretch;
 }
@@ -141,9 +138,7 @@ html, body {
     width: 48%;
     height: 100%;
     padding: 10px;
-    text-align: left;
     float: left;
     display: table;
     min-height: 100%;
 }
-*/
