@@ -46,7 +46,8 @@ html, body {
 .txtContent {
     font-size: 18px;
     margin: 25px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 .imgCaption {
@@ -55,7 +56,8 @@ html, body {
     width: auto;
     display: inline-block;
     font-size: 12px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 /*
