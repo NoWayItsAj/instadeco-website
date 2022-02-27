@@ -33,6 +33,21 @@
     src: local('Poppins'), url('/font/Poppins-Regular.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Roboto'), url('/font/Roboto-Regular.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: normal;
+    src: local('Roboto'), url('/font/Roboto-Italic.ttf') format('truetype');
+}
+
 /*
 @font-face {
     font-family: 'Poppins Thin';
