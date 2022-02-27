@@ -21,6 +21,8 @@ html, body {
     position: relative;
 }
 
+/* Content */
+
 #main {
     margin-top: -50px;
     width: 95%;
@@ -123,6 +125,8 @@ html, body {
 }
 
 /* pre-req for side by side action */
+
+/*
 .SBSwrapper {
     text-align: center;
     border-radius: 10px;
@@ -142,3 +146,4 @@ html, body {
     display: table;
     min-height: 100%;
 }
+*/
