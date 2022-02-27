@@ -40,7 +40,6 @@
     src: local('Roboto'), url('/font/Roboto-Regular.ttf') format('truetype');
 }
 
-
 @font-face {
     font-family: 'Roboto';
     font-style: italic;
