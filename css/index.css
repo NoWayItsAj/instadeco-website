@@ -1,59 +1,12 @@
-@font-face {
-    font-family: 'Kepler';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Kepler'), url('/font/KeplerStd-BoldScnDisp.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'Kepler';
-    font-style: italic;
-    font-weight: normal;
-    src: local('Kepler'), url('/font/KeplerStd-BoldScnItDisp.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Open Sans'), url('/font/OpenSans.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Open Sans';
-    font-style: italic;
-    font-weight: normal;
-    src: local('Open Sans'), url('/font/OpenSans\ Italic.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Poppins'), url('/font/Poppins-Regular.ttf') format('truetype');
-}
-
-/*
-@font-face {
-    font-family: 'Poppins Thin';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Poppins Thin'), url('/font/Poppins-Thin.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Poppins Thin';
-    font-style: italic;
-    font-weight: normal;
-    src: local('Poppins Thin'), url('/font/Poppins-ThinItalic.ttf') format('truetype');
-}
-*/
-
 body {
     font-family: 'Kepler', serif;
     padding: 0;
     margin: 0;
     background-color: #f4f9fd;
+}
+
+html, body {
+    height: 100%;
 }
 
 .txtContent p {
@@ -76,10 +29,13 @@ body {
     display: inline-block;
     position: relative;
     text-align: center;
-    padding: 20px 300px 0 300px;
     box-sizing: border-box;
     box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
     border-radius: 5px;
+}
+
+#mainWrapper {
+    padding: 20px 300px 0 300px;
 }
 
 .txtHeader {
@@ -98,7 +54,8 @@ body {
     text-align: left;
     width: auto;
     display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*
