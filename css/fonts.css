@@ -2,63 +2,63 @@
     font-family: 'Kepler';
     font-style: normal;
     font-weight: normal;
-    src: local('Kepler'), url('/font/KeplerStd-BoldScnDisp.otf') format('opentype');
+    src: local('Kepler'), url('font/KeplerStd-BoldScnDisp.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Kepler';
     font-style: italic;
     font-weight: normal;
-    src: local('Kepler'), url('/font/KeplerStd-BoldScnItDisp.otf') format('opentype');
+    src: local('Kepler'), url('font/KeplerStd-BoldScnItDisp.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: normal;
-    src: local('Open Sans'), url('/font/OpenSans.ttf') format('truetype');
+    src: local('Open Sans'), url('font/OpenSans.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Open Sans';
     font-style: italic;
     font-weight: normal;
-    src: local('Open Sans'), url('/font/OpenSans\ Italic.ttf') format('truetype');
+    src: local('Open Sans'), url('font/OpenSans\ Italic.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: normal;
-    src: local('Poppins'), url('/font/Poppins-Regular.ttf') format('truetype');
+    src: local('Poppins'), url('font/Poppins-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
-    src: local('Roboto'), url('/font/Roboto-Regular.ttf') format('truetype');
+    src: local('Roboto'), url('font/Roboto-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Roboto';
     font-style: italic;
     font-weight: normal;
-    src: local('Roboto'), url('/font/Roboto-Italic.ttf') format('truetype');
+    src: local('Roboto'), url('font/Roboto-Italic.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
-    src: local('Roboto Light'), url('/font/Roboto-Light.ttf') format('truetype');
+    src: local('Roboto Light'), url('font/Roboto-Light.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Roboto';
     font-style: italic;
     font-weight: 300;
-    src: local('Roboto Light'), url('/font/Roboto-LightItalic.ttf') format('truetype');
+    src: local('Roboto Light'), url('font/Roboto-LightItalic.ttf') format('truetype');
 }
 
 /*
