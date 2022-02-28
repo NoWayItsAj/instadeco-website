@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    background-image: url('/img/contactbg.jpg');
+}
+
+.topimg {
+    height: 210px;
+    background-color: transparent;
+}
+
+#subHead{
+    z-index: 4;          /* below all */
+    top: 80px;
+    height: 210px;           /* height of the top div */
+}
+
+#content{
+    position: relative;
+    background-color: transparent;
+    width: 100%;
+    z-index: 6;          /* below the top div, but above the one below it */
+    margin-top: 400px;   /* the height of the two divs above combined */
+    box-sizing: border-box;
+    text-align: center;
+}
