@@ -9,6 +9,15 @@ html, body {
     height: 100%;
 }
 
+a {
+    color: #00a562;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .txtContent p {
     margin-bottom: 35px;
 }
