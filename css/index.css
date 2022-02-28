@@ -2,7 +2,7 @@ body {
     font-family: 'Kepler', serif;
     padding: 0;
     margin: 0;
-    background-color: #f4f9fd;
+    background-color: #e7f2fb;
 }
 
 html, body {
@@ -28,6 +28,7 @@ a:hover {
     height: 700px;
     display: inline-block;
     position: relative;
+    text-align: center;
 }
 
 /* Content */
