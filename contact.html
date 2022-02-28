@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>InstaDeco | Automated Decoration System</title>
+        <link href="css/fonts.css" rel="stylesheet" type="text/css">
+        <link href="/css/index.css" rel="stylesheet" type="text/css">
+        <link href="/css/navbar.css" rel="stylesheet" type="text/css">
+        <link href="/css/footer.css" rel="stylesheet" type="text/css">
+        <link href="css/contact.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="js/index.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/0a5006146e.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav id="navbar" class="head">
+            <ul>
+                <li><a class="logo" href="index.html"><img src="/img/instadecologo.png" alt="InstaDeco" height="50px"></a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+        <!-- Content -->
+        <div id="subHead" class="topimg">
+        </div>
+        <div id="content">
+            <div id="main">
+                <div id="mainWrapper">
+                    <div class="txtHeader">Contact Form</div>
+                    <div class="container">
+                        <form action="action_page.php">
+
+                            <label for="fname">Email</label>
+                            <input type="text" id="email" name="email" placeholder="Your email address...">
+
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name...">
+                      
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+                      
+                            <label for="country">Country</label>
+                            <select id="country" name="country">
+                                <option value="us">United States</option>
+                                <option value="ca">Canada</option>
+                                <option value="au">Australia</option>
+                                <option value="uk">United Kingdom</option>
+                            </select>
+                      
+                            <label for="subject">Subject</label>
+                            <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+                            <p></p>
+                            <button class="submit btn btn-big contact-btn">
+                                <i class="fa fa-envelope"></i>
+                                Send
+                            </button>
+                        </form>
+                      </div> 
+                </div>
+                <!-- Footer -->
+                <div class="footer">
+                    <div class="footer-content">
+                        <div class="footer-section about">
+                            <h1 class="logo-text"><span>InstaDeco</span></h1>
+                            <p>
+                                InstaDeco is a small startup with it's roots in southern Minnesota.
+                                Our mission is to provide automated solutions for all of your outdoor decorations.
+                            </p>
+                            <div class="contact">
+                                <span><i class="fas fa-phone"></i> &nbsp; (123) 456-7890</span>
+                                <span><i class="fa fa-envelope"></i> &nbsp; info@instadeco.com</span>
+                            </div>
+                            <div class="socials">
+                                <a href="#"><i class="fab fa-amazon"></i></a>
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                        <div class="footer-section links">
+                            <h1>Quick Links</h1>
+                            <ul>
+                                <a href="#"><li>Events</li></a>
+                                <a href="#"><li>Team</li></a>
+                                <a href="#"><li>Gallery</li></a>
+                                <a href="#"><li>Terms and Conditions</li></a>
+                            </ul>
+                        </div>
+                        <div class="footer-section contact-form">
+                            <h1>Contact Us</h1>
+                            <form action="index.html" method="post">
+                                <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+                                <textarea name="message" class="text-input contact-input" placeholder="Write something..." ></textarea>
+                                <button class="submit btn btn-big contact-btn">
+                                    <i class="fa fa-envelope"></i>
+                                    Send
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        &copy; instadeco.com | All rights reserved
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
